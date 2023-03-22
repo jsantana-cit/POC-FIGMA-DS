@@ -1,0 +1,77 @@
+{
+    "version": 2.1,
+    "figmaId": "",
+    "name": "Meu Design System",
+    "description": "",
+    "screenSize": {
+      "w": 375,
+      "h": 667
+    },
+    "type": "smartphone",
+    "screens": {},
+    "widgets": {
+      "w10001": {
+        "id": "w10001",
+        "parentId": "s10000",
+        "name": "ButtonBlue",
+        "type": "Button",
+        "figmaId": "38:79",
+        "figmaType": "COMPONENT",
+        "x": 30,
+        "y": 96,
+        "w": 315,
+        "h": 485,
+        "layout": {
+          "type": "auto-vertical",
+          "justifyContent": "flex-start",
+          "alignItems": "flex-start",
+          "itemSpacing": 48,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        "z": 2,
+        "style": {
+          "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+          "borderBottomWidth": 0,
+          "borderTopWidth": 0,
+          "borderLeftWidth": 0,
+          "borderRightWidth": 0,
+          "backgroundColor": "rgba(120, 120, 120, 0)"
+        },
+        "props": {
+          "resize": {
+            "right": false,
+            "left": true,
+            "up": false,
+            "down": false,
+            "fixedHorizontal": true,
+            "fixedVertical": false
+          }
+        },
+        "has": {
+          "label": true,
+          "backgroundColor": true,
+          "border": true,
+          "onclick": true,
+          "padding": true
+        }
+      }
+    },
+    "lines": {},
+    "groups": {},
+    "lastUUID": 10053,
+    "lastZ": 49,
+    "lastUpdate": 0,
+    "created": 0,
+    "startScreen": "",
+    "grid": {
+      "w": 8,
+      "h": 8,
+      "style": "line",
+      "color": "#cecece",
+      "visible": false,
+      "enabled": false
+    }
+  }

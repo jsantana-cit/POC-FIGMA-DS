@@ -1,0 +1,6 @@
+{
+    "vueCompilerOptions": {
+    "strictTemplates": true,
+    "target": 2
+  }
+}

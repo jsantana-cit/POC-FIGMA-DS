@@ -1,0 +1,2873 @@
+{
+  "version": 2.1,
+  "figmaId": "8PrUWpiaizAK7fbWqpBct9",
+  "name": "Figma Designlet Example",
+  "description": "",
+  "screenSize": {
+    "w": 623,
+    "h": 1885
+  },
+  "type": "smartphone",
+  "screens": {
+    "s10000": {
+      "id": "s10000",
+      "figmaId": "1:2",
+      "name": "Simple Components",
+      "type": "Screen",
+      "x": -390,
+      "y": -594,
+      "w": 623,
+      "h": 1885,
+      "props": {},
+      "children": [
+        "w10001",
+        "w10002",
+        "w10003",
+        "w10004",
+        "w10005",
+        "w10006",
+        "w10007",
+        "w10008",
+        "w10009",
+        "w10010",
+        "w10011",
+        "w10012",
+        "w10013",
+        "w10014",
+        "w10015",
+        "w10016",
+        "w10017",
+        "w10018",
+        "w10019",
+        "w10020",
+        "w10021",
+        "w10022",
+        "w10023",
+        "w10024",
+        "w10025",
+        "w10026",
+        "w10027",
+        "w10028",
+        "w10029",
+        "w10030",
+        "w10031",
+        "w10032",
+        "w10033",
+        "w10034",
+        "w10035",
+        "w10036",
+        "w10037",
+        "w10038",
+        "w10039",
+        "w10040",
+        "w10041",
+        "w10042",
+        "w10043",
+        "w10044",
+        "w10045",
+        "w10046",
+        "w10047"
+      ],
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundColor": "rgba(255, 255, 255, 1)"
+      }
+    },
+    "s10048": {
+      "id": "s10048",
+      "figmaId": "44:2",
+      "name": "Complex Components",
+      "type": "Screen",
+      "x": 413,
+      "y": -594,
+      "w": 582,
+      "h": 729,
+      "props": {},
+      "children": [
+        "w10049",
+        "w10050",
+        "w10051",
+        "w10052",
+        "w10053",
+        "w10054",
+        "w10055",
+        "w10056",
+        "w10057",
+        "w10058",
+        "w10059",
+        "w10060",
+        "w10061"
+      ],
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundColor": "rgba(255, 255, 255, 1)"
+      }
+    }
+  },
+  "widgets": {
+    "w10001": {
+      "id": "w10001",
+      "parentId": "s10000",
+      "name": "ButtonBlue",
+      "type": "Button",
+      "figmaId": "1:3",
+      "figmaType": "RECTANGLE",
+      "x": -350,
+      "y": -572,
+      "w": 250,
+      "h": 40,
+      "z": 2,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundColor": "rgba(47, 102, 184, 1)",
+        "borderBottomLeftRadius": 4,
+        "borderTopLeftRadius": 4,
+        "borderBottomRightRadius": 4,
+        "borderTopRightRadius": 4,
+        "cursor": "pointer"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      }
+    },
+    "w10002": {
+      "id": "w10002",
+      "parentId": "s10000",
+      "name": "ButtonBlueLabel",
+      "type": "Label",
+      "figmaId": "1:4",
+      "figmaType": "TEXT",
+      "x": -320,
+      "y": -561,
+      "w": 191,
+      "h": 20,
+      "z": 3,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "color": "rgba(255, 255, 255, 1)",
+        "fontSize": 20,
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": 0,
+        "textAlign": "center",
+        "verticalAlign": "top"
+      },
+      "props": {
+        "label": "This is a button",
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "databinding": {
+          "default": "$label"
+        }
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      }
+    },
+    "w10003": {
+      "id": "w10003",
+      "parentId": "s10000",
+      "name": "ButtonRed",
+      "type": "Button",
+      "figmaId": "1:5",
+      "figmaType": "RECTANGLE",
+      "x": -350,
+      "y": -500,
+      "w": 247,
+      "h": 40,
+      "z": 4,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundColor": "rgba(184, 47, 47, 1)",
+        "borderBottomLeftRadius": 4,
+        "borderTopLeftRadius": 4,
+        "borderBottomRightRadius": 4,
+        "borderTopRightRadius": 4,
+        "cursor": "pointer"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      }
+    },
+    "w10004": {
+      "id": "w10004",
+      "parentId": "s10000",
+      "name": "ButtonRedLabel",
+      "type": "Label",
+      "figmaId": "1:6",
+      "figmaType": "TEXT",
+      "x": -323,
+      "y": -490,
+      "w": 194,
+      "h": 20,
+      "z": 5,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "color": "rgba(255, 255, 255, 1)",
+        "fontSize": 20,
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": 0,
+        "textAlign": "center",
+        "verticalAlign": "top"
+      },
+      "props": {
+        "label": "This is a button",
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "databinding": {
+          "default": "$label"
+        }
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      }
+    },
+    "w10005": {
+      "id": "w10005",
+      "parentId": "s10000",
+      "name": "ButtonYellow",
+      "type": "Button",
+      "figmaId": "44:3",
+      "figmaType": "RECTANGLE",
+      "x": -350,
+      "y": -440,
+      "w": 247,
+      "h": 40,
+      "z": 6,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundColor": "rgba(254, 201, 12, 1)",
+        "borderBottomLeftRadius": 4,
+        "borderTopLeftRadius": 4,
+        "borderBottomRightRadius": 4,
+        "borderTopRightRadius": 4,
+        "cursor": "pointer"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      }
+    },
+    "w10006": {
+      "id": "w10006",
+      "parentId": "s10000",
+      "name": "ButtonYellowLabel",
+      "type": "Label",
+      "figmaId": "44:4",
+      "figmaType": "TEXT",
+      "x": -323,
+      "y": -430,
+      "w": 194,
+      "h": 20,
+      "z": 7,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "color": "rgba(255, 255, 255, 1)",
+        "fontSize": 20,
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": 0,
+        "textAlign": "center",
+        "verticalAlign": "top"
+      },
+      "props": {
+        "label": "This is a button",
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "databinding": {
+          "default": "$label"
+        }
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      }
+    },
+    "w10007": {
+      "id": "w10007",
+      "parentId": "s10000",
+      "name": "HeaderBlue",
+      "type": "Label",
+      "figmaId": "1:7",
+      "figmaType": "TEXT",
+      "x": -346,
+      "y": -386,
+      "w": 253,
+      "h": 41,
+      "z": 8,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "color": "rgba(47, 102, 184, 1)",
+        "fontSize": 32,
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": 0,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "display": "block"
+      },
+      "props": {
+        "label": "Header",
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      }
+    },
+    "w10008": {
+      "id": "w10008",
+      "parentId": "s10000",
+      "name": "HeaderBlueXS",
+      "type": "Label",
+      "figmaId": "1:8",
+      "figmaType": "TEXT",
+      "x": -346,
+      "y": -331,
+      "w": 253,
+      "h": 20,
+      "z": 9,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "color": "rgba(47, 102, 184, 1)",
+        "fontSize": 18,
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": 0,
+        "textAlign": "left",
+        "verticalAlign": "middle",
+        "display": "block"
+      },
+      "props": {
+        "label": "HeaderSmall",
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      }
+    },
+    "w10009": {
+      "id": "w10009",
+      "parentId": "s10000",
+      "name": "WhiteInput",
+      "type": "TextBox",
+      "figmaId": "3:20",
+      "figmaType": "RECTANGLE",
+      "x": -343,
+      "y": -276,
+      "w": 250,
+      "h": 40,
+      "z": 10,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 1,
+        "borderTopWidth": 1,
+        "borderLeftWidth": 1,
+        "borderRightWidth": 1,
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+        "borderBottomLeftRadius": 4,
+        "borderTopLeftRadius": 4,
+        "borderBottomRightRadius": 4,
+        "borderTopRightRadius": 4,
+        "borderBottomColor": "rgba(193, 189, 189, 1)",
+        "borderTopColor": "rgba(193, 189, 189, 1)",
+        "borderLeftColor": "rgba(193, 189, 189, 1)",
+        "borderRightColor": "rgba(193, 189, 189, 1)"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "placeholder": true
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      }
+    },
+    "w10010": {
+      "id": "w10010",
+      "parentId": "s10000",
+      "name": "Email",
+      "type": "Label",
+      "figmaId": "3:21",
+      "figmaType": "TEXT",
+      "x": -331,
+      "y": -266,
+      "w": 231,
+      "h": 20,
+      "z": 11,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "color": "rgba(183, 179, 179, 1)",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": 0,
+        "textAlign": "left",
+        "verticalAlign": "middle"
+      },
+      "props": {
+        "label": "Email",
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      }
+    },
+    "w10011": {
+      "id": "w10011",
+      "parentId": "s10000",
+      "name": "VarientButton",
+      "type": "Button",
+      "figmaId": "23:9",
+      "figmaType": "COMPONENT_SET",
+      "x": -360,
+      "y": -211,
+      "w": 317,
+      "h": 244,
+      "z": 12,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 1,
+        "borderTopWidth": 1,
+        "borderLeftWidth": 1,
+        "borderRightWidth": 1,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderBottomLeftRadius": 5,
+        "borderTopLeftRadius": 5,
+        "borderBottomRightRadius": 5,
+        "borderTopRightRadius": 5,
+        "borderBottomColor": "rgba(123, 97, 255, 1)",
+        "borderTopColor": "rgba(123, 97, 255, 1)",
+        "borderLeftColor": "rgba(123, 97, 255, 1)",
+        "borderRightColor": "rgba(123, 97, 255, 1)",
+        "cursor": "pointer"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      }
+    },
+    "w10012": {
+      "id": "w10012",
+      "parentId": "w10011",
+      "name": "VarientButton-Primary-Out",
+      "type": "Button",
+      "figmaId": "23:10",
+      "figmaType": "COMPONENT",
+      "x": -340,
+      "y": -191,
+      "w": 220,
+      "h": 36,
+      "z": 13,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundColor": ""
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "databinding": {
+          "default": "$label"
+        },
+        "isComponet": true,
+        "isVaraint": true
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      },
+      "variant": {
+        "type": "Primary",
+        "state": "Out"
+      }
+    },
+    "w10013": {
+      "id": "w10013",
+      "parentId": "w10012",
+      "name": "VarientButtonBackground",
+      "type": "Button",
+      "figmaId": "23:11",
+      "figmaType": "RECTANGLE",
+      "x": -340,
+      "y": -191,
+      "w": 220,
+      "h": 36,
+      "z": 14,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundColor": "rgba(196, 196, 196, 1)",
+        "borderBottomLeftRadius": 4,
+        "borderTopLeftRadius": 4,
+        "borderBottomRightRadius": 4,
+        "borderTopRightRadius": 4
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      }
+    },
+    "w10014": {
+      "id": "w10014",
+      "parentId": "w10012",
+      "name": "VarientButtonLabel",
+      "type": "Label",
+      "figmaId": "23:12",
+      "figmaType": "TEXT",
+      "x": -300,
+      "y": -181,
+      "w": 122,
+      "h": 16,
+      "z": 15,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "color": "rgba(0, 0, 0, 1)",
+        "fontSize": 20,
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": 0,
+        "textAlign": "center",
+        "verticalAlign": "middle"
+      },
+      "props": {
+        "label": "Button",
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "databinding": {
+          "default": "$label"
+        }
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      }
+    },
+    "w10015": {
+      "id": "w10015",
+      "parentId": "w10011",
+      "name": "VarientButton-Secondary-Out",
+      "type": "Button",
+      "figmaId": "23:13",
+      "figmaType": "COMPONENT",
+      "x": -340,
+      "y": -135,
+      "w": 220,
+      "h": 36,
+      "z": 16,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundColor": ""
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "isComponet": true,
+        "isVaraint": true
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      },
+      "variant": {
+        "type": "Secondary",
+        "state": "Out"
+      }
+    },
+    "w10016": {
+      "id": "w10016",
+      "parentId": "w10015",
+      "name": "VarientButtonBackground",
+      "type": "Button",
+      "figmaId": "23:14",
+      "figmaType": "RECTANGLE",
+      "x": -340,
+      "y": -135,
+      "w": 220,
+      "h": 36,
+      "z": 17,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 1,
+        "borderTopWidth": 1,
+        "borderLeftWidth": 1,
+        "borderRightWidth": 1,
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+        "borderBottomLeftRadius": 4,
+        "borderTopLeftRadius": 4,
+        "borderBottomRightRadius": 4,
+        "borderTopRightRadius": 4,
+        "borderBottomColor": "rgba(183, 179, 179, 1)",
+        "borderTopColor": "rgba(183, 179, 179, 1)",
+        "borderLeftColor": "rgba(183, 179, 179, 1)",
+        "borderRightColor": "rgba(183, 179, 179, 1)"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      }
+    },
+    "w10017": {
+      "id": "w10017",
+      "parentId": "w10015",
+      "name": "VarientButtonLabel",
+      "type": "Label",
+      "figmaId": "23:15",
+      "figmaType": "TEXT",
+      "x": -301,
+      "y": -125,
+      "w": 122,
+      "h": 16,
+      "z": 18,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "color": "rgba(183, 179, 179, 1)",
+        "fontSize": 20,
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": 0,
+        "textAlign": "center",
+        "verticalAlign": "middle"
+      },
+      "props": {
+        "label": "Button",
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "databinding": {
+          "default": "$label"
+        }
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      }
+    },
+    "w10018": {
+      "id": "w10018",
+      "parentId": "w10011",
+      "name": "VarientButton-Primary-Hover",
+      "type": "Button",
+      "figmaId": "30:0",
+      "figmaType": "COMPONENT",
+      "x": -340,
+      "y": -79,
+      "w": 220,
+      "h": 36,
+      "z": 19,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundColor": ""
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "databinding": {
+          "default": "$label"
+        },
+        "isComponet": true,
+        "isVaraint": true
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      },
+      "variant": {
+        "type": "Primary",
+        "state": "Hover"
+      }
+    },
+    "w10019": {
+      "id": "w10019",
+      "parentId": "w10018",
+      "name": "VarientButtonBackground",
+      "type": "Button",
+      "figmaId": "30:1",
+      "figmaType": "RECTANGLE",
+      "x": -340,
+      "y": -79,
+      "w": 220,
+      "h": 36,
+      "z": 20,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundColor": "rgba(0, 0, 0, 1)",
+        "borderBottomLeftRadius": 4,
+        "borderTopLeftRadius": 4,
+        "borderBottomRightRadius": 4,
+        "borderTopRightRadius": 4
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      }
+    },
+    "w10020": {
+      "id": "w10020",
+      "parentId": "w10018",
+      "name": "VarientButtonLabel",
+      "type": "Label",
+      "figmaId": "30:2",
+      "figmaType": "TEXT",
+      "x": -300,
+      "y": -69,
+      "w": 122,
+      "h": 16,
+      "z": 21,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "color": "rgba(255, 255, 255, 1)",
+        "fontSize": 20,
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": 0,
+        "textAlign": "center",
+        "verticalAlign": "middle"
+      },
+      "props": {
+        "label": "Button",
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "databinding": {
+          "default": "$label"
+        }
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      }
+    },
+    "w10021": {
+      "id": "w10021",
+      "parentId": "w10011",
+      "name": "VarientButton-Secondary-Hover",
+      "type": "Button",
+      "figmaId": "30:3",
+      "figmaType": "COMPONENT",
+      "x": -340,
+      "y": -23,
+      "w": 220,
+      "h": 36,
+      "z": 22,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundColor": ""
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "databinding": {
+          "default": "$label"
+        },
+        "isComponet": true,
+        "isVaraint": true
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      },
+      "variant": {
+        "type": "Secondary",
+        "state": "Hover"
+      }
+    },
+    "w10022": {
+      "id": "w10022",
+      "parentId": "w10021",
+      "name": "VarientButtonBackground",
+      "type": "Button",
+      "figmaId": "30:4",
+      "figmaType": "RECTANGLE",
+      "x": -340,
+      "y": -23,
+      "w": 220,
+      "h": 36,
+      "z": 23,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 1,
+        "borderTopWidth": 1,
+        "borderLeftWidth": 1,
+        "borderRightWidth": 1,
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+        "borderBottomLeftRadius": 4,
+        "borderTopLeftRadius": 4,
+        "borderBottomRightRadius": 4,
+        "borderTopRightRadius": 4,
+        "borderBottomColor": "rgba(0, 0, 0, 1)",
+        "borderTopColor": "rgba(0, 0, 0, 1)",
+        "borderLeftColor": "rgba(0, 0, 0, 1)",
+        "borderRightColor": "rgba(0, 0, 0, 1)"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      }
+    },
+    "w10023": {
+      "id": "w10023",
+      "parentId": "w10021",
+      "name": "VarientButtonLabel",
+      "type": "Label",
+      "figmaId": "30:5",
+      "figmaType": "TEXT",
+      "x": -299,
+      "y": -13,
+      "w": 122,
+      "h": 16,
+      "z": 24,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "color": "rgba(0, 0, 0, 1)",
+        "fontSize": 20,
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": 0,
+        "textAlign": "center",
+        "verticalAlign": "middle"
+      },
+      "props": {
+        "label": "Button",
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "databinding": {
+          "default": "$label"
+        }
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      }
+    },
+    "w10024": {
+      "id": "w10024",
+      "parentId": "s10000",
+      "name": "VarientCheckBox",
+      "type": "ChildrenToggle",
+      "figmaId": "26:3",
+      "figmaType": "COMPONENT_SET",
+      "x": -343,
+      "y": 64,
+      "w": 278,
+      "h": 260,
+      "z": 25,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 1,
+        "borderTopWidth": 1,
+        "borderLeftWidth": 1,
+        "borderRightWidth": 1,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderBottomLeftRadius": 5,
+        "borderTopLeftRadius": 5,
+        "borderBottomRightRadius": 5,
+        "borderTopRightRadius": 5,
+        "borderBottomColor": "rgba(123, 97, 255, 1)",
+        "borderTopColor": "rgba(123, 97, 255, 1)",
+        "borderLeftColor": "rgba(123, 97, 255, 1)",
+        "borderRightColor": "rgba(123, 97, 255, 1)"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "placeholder": true
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      },
+      "smartContainerType": "ChildrenToggle"
+    },
+    "w10025": {
+      "id": "w10025",
+      "parentId": "w10024",
+      "name": "VarientCheckBox-Selected-Blue",
+      "type": "Button",
+      "figmaId": "26:4",
+      "figmaType": "COMPONENT",
+      "x": -323,
+      "y": 144,
+      "w": 238,
+      "h": 40,
+      "z": 26,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundColor": "",
+        "cursor": "pointer"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "isComponet": true,
+        "isVaraint": true
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      },
+      "variant": {
+        "State": "Selected",
+        "Type": "Blue"
+      }
+    },
+    "w10026": {
+      "id": "w10026",
+      "parentId": "w10025",
+      "name": "CheckBoxCntr",
+      "type": "Button",
+      "figmaId": "26:5",
+      "figmaType": "RECTANGLE",
+      "x": -323,
+      "y": 144,
+      "w": 40,
+      "h": 40,
+      "z": 27,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 1,
+        "borderTopWidth": 1,
+        "borderLeftWidth": 1,
+        "borderRightWidth": 1,
+        "backgroundColor": "rgba(47, 102, 184, 0.12999999523162842)",
+        "borderBottomLeftRadius": 50,
+        "borderTopLeftRadius": 50,
+        "borderBottomRightRadius": 50,
+        "borderTopRightRadius": 50,
+        "borderBottomColor": "rgba(47, 102, 184, 1)",
+        "borderTopColor": "rgba(47, 102, 184, 1)",
+        "borderLeftColor": "rgba(47, 102, 184, 1)",
+        "borderRightColor": "rgba(47, 102, 184, 1)"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      }
+    },
+    "w10027": {
+      "id": "w10027",
+      "parentId": "w10025",
+      "name": "CheckboxLabel",
+      "type": "Label",
+      "figmaId": "26:6",
+      "figmaType": "TEXT",
+      "x": -265,
+      "y": 148,
+      "w": 180,
+      "h": 27,
+      "z": 28,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "color": "rgba(47, 102, 184, 1)",
+        "fontSize": 20,
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": 0,
+        "textAlign": "left",
+        "verticalAlign": "middle"
+      },
+      "props": {
+        "label": "Checkbox",
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "databinding": {
+          "default": "$label"
+        }
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      }
+    },
+    "w10028": {
+      "id": "w10028",
+      "parentId": "w10025",
+      "name": "Hook",
+      "type": "Vector",
+      "figmaId": "26:7",
+      "figmaType": "VECTOR",
+      "x": -311,
+      "y": 153,
+      "w": 16,
+      "h": 22,
+      "z": 29,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundImage": {
+          "url": "w10028.png"
+        }
+      },
+      "props": {
+        "paths": [
+          {
+            "path": "M7.72414 22L6.44055 22.7761L8.03984 25.4211L9.12809 22.5281L7.72414 22ZM-1.28359 10.002L6.44055 22.7761L9.00773 21.2239L1.28359 8.44966L-1.28359 10.002ZM9.12809 22.5281L17.4039 0.528132L14.596 -0.528132L6.32019 21.4719L9.12809 22.5281Z",
+            "windingRule": "NONZERO"
+          }
+        ],
+        "relativeTransform": [
+          [
+            1,
+            0,
+            12
+          ],
+          [
+            0,
+            1,
+            9
+          ]
+        ],
+        "isVector": true,
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "figmaImage": "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/4ed6/80fa/2c2b218e032cb82dafa6168a4179a8b8"
+      },
+      "has": {}
+    },
+    "w10029": {
+      "id": "w10029",
+      "parentId": "w10024",
+      "name": "VarientCheckBox-Default-Blue",
+      "type": "Button",
+      "figmaId": "26:2",
+      "figmaType": "COMPONENT",
+      "x": -323,
+      "y": 84,
+      "w": 238,
+      "h": 40,
+      "z": 30,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundColor": "",
+        "cursor": "pointer"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "isComponet": true,
+        "isVaraint": true
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      },
+      "variant": {
+        "State": "Default",
+        "Type": "Blue"
+      }
+    },
+    "w10030": {
+      "id": "w10030",
+      "parentId": "w10029",
+      "name": "CheckBoxCntr",
+      "type": "Button",
+      "figmaId": "26:0",
+      "figmaType": "RECTANGLE",
+      "x": -323,
+      "y": 84,
+      "w": 40,
+      "h": 40,
+      "z": 31,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 1,
+        "borderTopWidth": 1,
+        "borderLeftWidth": 1,
+        "borderRightWidth": 1,
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+        "borderBottomLeftRadius": 50,
+        "borderTopLeftRadius": 50,
+        "borderBottomRightRadius": 50,
+        "borderTopRightRadius": 50,
+        "borderBottomColor": "rgba(183, 179, 179, 1)",
+        "borderTopColor": "rgba(183, 179, 179, 1)",
+        "borderLeftColor": "rgba(183, 179, 179, 1)",
+        "borderRightColor": "rgba(183, 179, 179, 1)"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      }
+    },
+    "w10031": {
+      "id": "w10031",
+      "parentId": "w10029",
+      "name": "CheckboxLabel",
+      "type": "Label",
+      "figmaId": "26:1",
+      "figmaType": "TEXT",
+      "x": -265,
+      "y": 88,
+      "w": 180,
+      "h": 27,
+      "z": 32,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "color": "rgba(0, 0, 0, 1)",
+        "fontSize": 20,
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": 0,
+        "textAlign": "left",
+        "verticalAlign": "middle"
+      },
+      "props": {
+        "label": "Checkbox",
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "databinding": {
+          "default": "$label"
+        }
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      }
+    },
+    "w10032": {
+      "id": "w10032",
+      "parentId": "w10024",
+      "name": "VarientCheckBox-Selected-Red",
+      "type": "Button",
+      "figmaId": "27:3",
+      "figmaType": "COMPONENT",
+      "x": -323,
+      "y": 264,
+      "w": 238,
+      "h": 40,
+      "z": 33,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundColor": "",
+        "cursor": "pointer"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "isComponet": true,
+        "isVaraint": true
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      },
+      "variant": {
+        "State": "Selected",
+        "Type": "Red"
+      }
+    },
+    "w10033": {
+      "id": "w10033",
+      "parentId": "w10032",
+      "name": "CheckBoxCntr",
+      "type": "Button",
+      "figmaId": "27:4",
+      "figmaType": "RECTANGLE",
+      "x": -323,
+      "y": 264,
+      "w": 40,
+      "h": 40,
+      "z": 34,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 1,
+        "borderTopWidth": 1,
+        "borderLeftWidth": 1,
+        "borderRightWidth": 1,
+        "backgroundColor": "rgba(221, 41, 41, 0.05999999865889549)",
+        "borderBottomLeftRadius": 50,
+        "borderTopLeftRadius": 50,
+        "borderBottomRightRadius": 50,
+        "borderTopRightRadius": 50,
+        "borderBottomColor": "rgba(221, 41, 41, 1)",
+        "borderTopColor": "rgba(221, 41, 41, 1)",
+        "borderLeftColor": "rgba(221, 41, 41, 1)",
+        "borderRightColor": "rgba(221, 41, 41, 1)"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      }
+    },
+    "w10034": {
+      "id": "w10034",
+      "parentId": "w10032",
+      "name": "CheckboxLabel",
+      "type": "Label",
+      "figmaId": "27:5",
+      "figmaType": "TEXT",
+      "x": -265,
+      "y": 268,
+      "w": 180,
+      "h": 27,
+      "z": 35,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "color": "rgba(221, 41, 41, 1)",
+        "fontSize": 20,
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": 0,
+        "textAlign": "left",
+        "verticalAlign": "middle"
+      },
+      "props": {
+        "label": "Checkbox",
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "databinding": {
+          "default": "$label"
+        }
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      }
+    },
+    "w10035": {
+      "id": "w10035",
+      "parentId": "w10032",
+      "name": "Hook",
+      "type": "Vector",
+      "figmaId": "27:6",
+      "figmaType": "VECTOR",
+      "x": -311,
+      "y": 271,
+      "w": 16,
+      "h": 22,
+      "z": 36,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundImage": {
+          "url": "w10035.png"
+        }
+      },
+      "props": {
+        "paths": [
+          {
+            "path": "M7.72414 22L6.44055 22.7761L8.03984 25.4211L9.12809 22.5281L7.72414 22ZM-1.28359 10.002L6.44055 22.7761L9.00773 21.2239L1.28359 8.44966L-1.28359 10.002ZM9.12809 22.5281L17.4039 0.528132L14.596 -0.528132L6.32019 21.4719L9.12809 22.5281Z",
+            "windingRule": "NONZERO"
+          }
+        ],
+        "relativeTransform": [
+          [
+            1,
+            0,
+            12
+          ],
+          [
+            0,
+            1,
+            7
+          ]
+        ],
+        "isVector": true,
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "figmaImage": "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/966a/a997/6db608803f6b9580c024dd63a5135e8f"
+      },
+      "has": {}
+    },
+    "w10036": {
+      "id": "w10036",
+      "parentId": "w10024",
+      "name": "VarientCheckBox-Default-Red",
+      "type": "Button",
+      "figmaId": "27:0",
+      "figmaType": "COMPONENT",
+      "x": -323,
+      "y": 204,
+      "w": 238,
+      "h": 40,
+      "z": 37,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundColor": "",
+        "cursor": "pointer"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "isComponet": true,
+        "isVaraint": true
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      },
+      "variant": {
+        "State": "Default",
+        "Type": "Red"
+      }
+    },
+    "w10037": {
+      "id": "w10037",
+      "parentId": "w10036",
+      "name": "CheckBoxCntr",
+      "type": "Button",
+      "figmaId": "27:1",
+      "figmaType": "RECTANGLE",
+      "x": -323,
+      "y": 204,
+      "w": 40,
+      "h": 40,
+      "z": 38,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 1,
+        "borderTopWidth": 1,
+        "borderLeftWidth": 1,
+        "borderRightWidth": 1,
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+        "borderBottomLeftRadius": 50,
+        "borderTopLeftRadius": 50,
+        "borderBottomRightRadius": 50,
+        "borderTopRightRadius": 50,
+        "borderBottomColor": "rgba(221, 41, 41, 1)",
+        "borderTopColor": "rgba(221, 41, 41, 1)",
+        "borderLeftColor": "rgba(221, 41, 41, 1)",
+        "borderRightColor": "rgba(221, 41, 41, 1)"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      }
+    },
+    "w10038": {
+      "id": "w10038",
+      "parentId": "w10036",
+      "name": "CheckboxLabel",
+      "type": "Label",
+      "figmaId": "27:2",
+      "figmaType": "TEXT",
+      "x": -265,
+      "y": 208,
+      "w": 180,
+      "h": 27,
+      "z": 39,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "color": "rgba(0, 0, 0, 1)",
+        "fontSize": 20,
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": 0,
+        "textAlign": "left",
+        "verticalAlign": "middle"
+      },
+      "props": {
+        "label": "Checkbox",
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "databinding": {
+          "default": "$label"
+        }
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      }
+    },
+    "w10039": {
+      "id": "w10039",
+      "parentId": "s10000",
+      "name": "VarientToggleButton",
+      "type": "ChildrenToggle",
+      "figmaId": "28:3",
+      "figmaType": "COMPONENT_SET",
+      "x": -340,
+      "y": 343,
+      "w": 290,
+      "h": 136,
+      "z": 40,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 1,
+        "borderTopWidth": 1,
+        "borderLeftWidth": 1,
+        "borderRightWidth": 1,
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderBottomLeftRadius": 5,
+        "borderTopLeftRadius": 5,
+        "borderBottomRightRadius": 5,
+        "borderTopRightRadius": 5,
+        "borderBottomColor": "rgba(123, 97, 255, 1)",
+        "borderTopColor": "rgba(123, 97, 255, 1)",
+        "borderLeftColor": "rgba(123, 97, 255, 1)",
+        "borderRightColor": "rgba(123, 97, 255, 1)",
+        "cursor": "pointer"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "placeholder": true
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      },
+      "smartContainerType": "ChildrenToggle"
+    },
+    "w10040": {
+      "id": "w10040",
+      "parentId": "w10039",
+      "name": "VarientToggleButton-Passive",
+      "type": "Button",
+      "figmaId": "28:2",
+      "figmaType": "COMPONENT",
+      "x": -320,
+      "y": 363,
+      "w": 250,
+      "h": 38,
+      "z": 41,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundColor": "",
+        "cursor": "pointer"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "isComponet": true,
+        "isVaraint": true
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      },
+      "variant": {
+        "Property 1": "Passive"
+      }
+    },
+    "w10041": {
+      "id": "w10041",
+      "parentId": "w10040",
+      "name": "ToggleButtonBack",
+      "type": "Button",
+      "figmaId": "28:0",
+      "figmaType": "RECTANGLE",
+      "x": -320,
+      "y": 363,
+      "w": 250,
+      "h": 38,
+      "z": 42,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 1,
+        "borderTopWidth": 1,
+        "borderLeftWidth": 1,
+        "borderRightWidth": 1,
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+        "borderBottomLeftRadius": 4,
+        "borderTopLeftRadius": 4,
+        "borderBottomRightRadius": 4,
+        "borderTopRightRadius": 4,
+        "borderBottomColor": "rgba(9, 194, 105, 1)",
+        "borderTopColor": "rgba(9, 194, 105, 1)",
+        "borderLeftColor": "rgba(9, 194, 105, 1)",
+        "borderRightColor": "rgba(9, 194, 105, 1)"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      }
+    },
+    "w10042": {
+      "id": "w10042",
+      "parentId": "w10040",
+      "name": "ToggleButtonLabel",
+      "type": "Label",
+      "figmaId": "28:1",
+      "figmaType": "TEXT",
+      "x": -264,
+      "y": 371,
+      "w": 138,
+      "h": 23,
+      "z": 43,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "color": "rgba(9, 194, 105, 1)",
+        "fontSize": 20,
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": 0,
+        "textAlign": "center",
+        "verticalAlign": "middle"
+      },
+      "props": {
+        "label": "Passive",
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "databinding": {
+          "default": "$label"
+        }
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      }
+    },
+    "w10043": {
+      "id": "w10043",
+      "parentId": "w10039",
+      "name": "VarientToggleButton-Active",
+      "type": "Button",
+      "figmaId": "28:4",
+      "figmaType": "COMPONENT",
+      "x": -320,
+      "y": 421,
+      "w": 250,
+      "h": 38,
+      "z": 44,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundColor": "",
+        "cursor": "pointer"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "isComponet": true,
+        "isVaraint": true
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      },
+      "variant": {
+        "Property 1": "Active"
+      }
+    },
+    "w10044": {
+      "id": "w10044",
+      "parentId": "w10043",
+      "name": "ToggleButtonBack",
+      "type": "Button",
+      "figmaId": "28:5",
+      "figmaType": "RECTANGLE",
+      "x": -320,
+      "y": 421,
+      "w": 250,
+      "h": 38,
+      "z": 45,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 1,
+        "borderTopWidth": 1,
+        "borderLeftWidth": 1,
+        "borderRightWidth": 1,
+        "backgroundColor": "rgba(203, 255, 230, 1)",
+        "borderBottomLeftRadius": 4,
+        "borderTopLeftRadius": 4,
+        "borderBottomRightRadius": 4,
+        "borderTopRightRadius": 4,
+        "borderBottomColor": "rgba(9, 194, 105, 1)",
+        "borderTopColor": "rgba(9, 194, 105, 1)",
+        "borderLeftColor": "rgba(9, 194, 105, 1)",
+        "borderRightColor": "rgba(9, 194, 105, 1)"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      }
+    },
+    "w10045": {
+      "id": "w10045",
+      "parentId": "w10043",
+      "name": "ToggleButtonLabel",
+      "type": "Label",
+      "figmaId": "28:6",
+      "figmaType": "TEXT",
+      "x": -264,
+      "y": 429,
+      "w": 138,
+      "h": 23,
+      "z": 46,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "color": "rgba(9, 194, 105, 1)",
+        "fontSize": 20,
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": 0,
+        "textAlign": "center",
+        "verticalAlign": "middle"
+      },
+      "props": {
+        "label": "Active",
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "databinding": {
+          "default": "$label"
+        }
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      }
+    },
+    "w10046": {
+      "id": "w10046",
+      "parentId": "s10000",
+      "name": "ToggleRadioButton",
+      "type": "ChildrenToggle",
+      "figmaId": "31:2",
+      "figmaType": "COMPONENT",
+      "x": -340,
+      "y": 521,
+      "w": 40,
+      "h": 40,
+      "z": 47,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 1,
+        "borderTopWidth": 1,
+        "borderLeftWidth": 1,
+        "borderRightWidth": 1,
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+        "borderBottomLeftRadius": 50,
+        "borderTopLeftRadius": 50,
+        "borderBottomRightRadius": 50,
+        "borderTopRightRadius": 50,
+        "borderBottomColor": "rgba(183, 179, 179, 1)",
+        "borderTopColor": "rgba(183, 179, 179, 1)",
+        "borderLeftColor": "rgba(183, 179, 179, 1)",
+        "borderRightColor": "rgba(183, 179, 179, 1)",
+        "cursor": "pointer"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": true,
+          "fixedVertical": false
+        },
+        "placeholder": true
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      },
+      "smartContainerType": "ChildrenToggle"
+    },
+    "w10047": {
+      "id": "w10047",
+      "parentId": "w10046",
+      "name": "RadioCircle",
+      "type": "Button",
+      "figmaId": "31:1",
+      "figmaType": "RECTANGLE",
+      "x": -330,
+      "y": 531,
+      "w": 20,
+      "h": 20,
+      "z": 48,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundColor": "rgba(47, 102, 184, 1)",
+        "borderBottomLeftRadius": 50,
+        "borderTopLeftRadius": 50,
+        "borderBottomRightRadius": 50,
+        "borderTopRightRadius": 50
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      }
+    },
+    "w10049": {
+      "id": "w10049",
+      "parentId": "s10048",
+      "name": "ContentCard",
+      "type": "Button",
+      "figmaId": "3:6",
+      "figmaType": "GROUP",
+      "x": 467,
+      "y": -579,
+      "w": 241,
+      "h": 229,
+      "z": 49,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": true,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      }
+    },
+    "w10050": {
+      "id": "w10050",
+      "parentId": "w10049",
+      "name": "ContentBack",
+      "type": "Button",
+      "figmaId": "3:0",
+      "figmaType": "RECTANGLE",
+      "x": 467,
+      "y": -579,
+      "w": 241,
+      "h": 229,
+      "z": 50,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+        "borderBottomLeftRadius": 4,
+        "borderTopLeftRadius": 4,
+        "borderBottomRightRadius": 4,
+        "borderTopRightRadius": 4,
+        "boxShadow": {
+          "v": 4,
+          "h": 0,
+          "b": 20,
+          "s": 0,
+          "i": false,
+          "c": "rgba(0, 0, 0, 0.25)"
+        }
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      }
+    },
+    "w10051": {
+      "id": "w10051",
+      "parentId": "w10049",
+      "name": "Content Header",
+      "type": "Label",
+      "figmaId": "3:1",
+      "figmaType": "TEXT",
+      "x": 487,
+      "y": -562,
+      "w": 195,
+      "h": 30,
+      "z": 51,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "color": "rgba(0, 0, 0, 1)",
+        "fontSize": 18,
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": 0,
+        "textAlign": "left",
+        "verticalAlign": "middle"
+      },
+      "props": {
+        "label": "Content Header",
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "databinding": {
+          "default": "header"
+        }
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      }
+    },
+    "w10052": {
+      "id": "w10052",
+      "parentId": "w10049",
+      "name": "ContentBody",
+      "type": "Label",
+      "figmaId": "3:2",
+      "figmaType": "TEXT",
+      "x": 487,
+      "y": -515,
+      "w": 195,
+      "h": 141,
+      "z": 52,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "color": "rgba(0, 0, 0, 1)",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": 0,
+        "textAlign": "left",
+        "verticalAlign": "top"
+      },
+      "props": {
+        "label": "ContentBody",
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "databinding": {
+          "default": "body"
+        }
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      }
+    },
+    "w10053": {
+      "id": "w10053",
+      "parentId": "s10048",
+      "name": "LoginDialog",
+      "type": "Button",
+      "figmaId": "36:2",
+      "figmaType": "COMPONENT",
+      "x": 467,
+      "y": -301,
+      "w": 241,
+      "h": 258,
+      "z": 53,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundColor": "rgba(0, 0, 0, 0)"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": true,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      }
+    },
+    "w10054": {
+      "id": "w10054",
+      "parentId": "w10053",
+      "name": "LoginBack",
+      "type": "Button",
+      "figmaId": "3:3",
+      "figmaType": "RECTANGLE",
+      "x": 467,
+      "y": -301,
+      "w": 241,
+      "h": 258,
+      "z": 54,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+        "borderBottomLeftRadius": 4,
+        "borderTopLeftRadius": 4,
+        "borderBottomRightRadius": 4,
+        "borderTopRightRadius": 4,
+        "boxShadow": {
+          "v": 4,
+          "h": 0,
+          "b": 20,
+          "s": 0,
+          "i": false,
+          "c": "rgba(0, 0, 0, 0.25)"
+        }
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      }
+    },
+    "w10055": {
+      "id": "w10055",
+      "parentId": "w10053",
+      "name": "LoginButton",
+      "type": "Button",
+      "figmaId": "3:11",
+      "figmaType": "RECTANGLE",
+      "x": 487,
+      "y": -96,
+      "w": 195,
+      "h": 40,
+      "z": 55,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "backgroundColor": "rgba(47, 102, 184, 1)",
+        "borderBottomLeftRadius": 4,
+        "borderTopLeftRadius": 4,
+        "borderBottomRightRadius": 4,
+        "borderTopRightRadius": 4
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "callbacks": {
+          "click": "login"
+        }
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      }
+    },
+    "w10056": {
+      "id": "w10056",
+      "parentId": "w10053",
+      "name": "LoginButtonLabel",
+      "type": "Label",
+      "figmaId": "3:12",
+      "figmaType": "TEXT",
+      "x": 512,
+      "y": -88,
+      "w": 147,
+      "h": 20,
+      "z": 56,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "color": "rgba(255, 255, 255, 1)",
+        "fontSize": 20,
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": 0,
+        "textAlign": "center",
+        "verticalAlign": "top"
+      },
+      "props": {
+        "label": "Login",
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "callbacks": {
+          "click": "login"
+        }
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      }
+    },
+    "w10057": {
+      "id": "w10057",
+      "parentId": "w10053",
+      "name": "LoginHeader",
+      "type": "Label",
+      "figmaId": "3:4",
+      "figmaType": "TEXT",
+      "x": 487,
+      "y": -284,
+      "w": 195,
+      "h": 30,
+      "z": 57,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "color": "rgba(0, 0, 0, 1)",
+        "fontSize": 18,
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": 0,
+        "textAlign": "left",
+        "verticalAlign": "middle"
+      },
+      "props": {
+        "label": "Login Screen",
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      }
+    },
+    "w10058": {
+      "id": "w10058",
+      "parentId": "w10053",
+      "name": "EmailField",
+      "type": "TextBox",
+      "figmaId": "3:7",
+      "figmaType": "RECTANGLE",
+      "x": 487,
+      "y": -221,
+      "w": 195,
+      "h": 32,
+      "z": 58,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 1,
+        "borderTopWidth": 1,
+        "borderLeftWidth": 1,
+        "borderRightWidth": 1,
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+        "borderBottomLeftRadius": 4,
+        "borderTopLeftRadius": 4,
+        "borderBottomRightRadius": 4,
+        "borderTopRightRadius": 4,
+        "borderBottomColor": "rgba(193, 189, 189, 1)",
+        "borderTopColor": "rgba(193, 189, 189, 1)",
+        "borderLeftColor": "rgba(193, 189, 189, 1)",
+        "borderRightColor": "rgba(193, 189, 189, 1)"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "placeholder": true,
+        "databinding": {
+          "default": "name"
+        }
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      }
+    },
+    "w10059": {
+      "id": "w10059",
+      "parentId": "w10053",
+      "name": "PasswordField",
+      "type": "Password",
+      "figmaId": "3:8",
+      "figmaType": "RECTANGLE",
+      "x": 487,
+      "y": -158,
+      "w": 195,
+      "h": 32,
+      "z": 59,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 1,
+        "borderTopWidth": 1,
+        "borderLeftWidth": 1,
+        "borderRightWidth": 1,
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+        "borderBottomLeftRadius": 4,
+        "borderTopLeftRadius": 4,
+        "borderBottomRightRadius": 4,
+        "borderTopRightRadius": 4,
+        "borderBottomColor": "rgba(193, 189, 189, 1)",
+        "borderTopColor": "rgba(193, 189, 189, 1)",
+        "borderLeftColor": "rgba(193, 189, 189, 1)",
+        "borderRightColor": "rgba(193, 189, 189, 1)"
+      },
+      "props": {
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        },
+        "placeholder": true,
+        "databinding": {
+          "default": "password"
+        }
+      },
+      "has": {
+        "label": true,
+        "backgroundColor": true,
+        "border": true,
+        "onclick": true,
+        "padding": true
+      }
+    },
+    "w10060": {
+      "id": "w10060",
+      "parentId": "w10053",
+      "name": "Password",
+      "type": "Label",
+      "figmaId": "3:19",
+      "figmaType": "TEXT",
+      "x": 495,
+      "y": -152,
+      "w": 178,
+      "h": 20,
+      "z": 60,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "color": "rgba(0, 0, 0, 1)",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": 0,
+        "textAlign": "left",
+        "verticalAlign": "top"
+      },
+      "props": {
+        "label": "Password",
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      }
+    },
+    "w10061": {
+      "id": "w10061",
+      "parentId": "w10053",
+      "name": "Email",
+      "type": "Label",
+      "figmaId": "3:18",
+      "figmaType": "TEXT",
+      "x": 495,
+      "y": -215,
+      "w": 178,
+      "h": 20,
+      "z": 61,
+      "style": {
+        "fontFamily": "Helvetica Neue,Helvetica,Arial,sans-serif",
+        "borderBottomWidth": 0,
+        "borderTopWidth": 0,
+        "borderLeftWidth": 0,
+        "borderRightWidth": 0,
+        "color": "rgba(0, 0, 0, 1)",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": 0,
+        "textAlign": "left",
+        "verticalAlign": "top"
+      },
+      "props": {
+        "label": "Email",
+        "resize": {
+          "right": true,
+          "left": true,
+          "up": false,
+          "down": false,
+          "fixedHorizontal": false,
+          "fixedVertical": false
+        }
+      },
+      "has": {
+        "label": true,
+        "padding": true,
+        "advancedText": true
+      }
+    }
+  },
+  "lines": {},
+  "groups": {},
+  "lastUUID": 10062,
+  "lastZ": 61,
+  "lastUpdate": 0,
+  "created": 0,
+  "startScreen": "",
+  "grid": {
+    "w": 8,
+    "h": 8,
+    "style": "line",
+    "color": "#cecece",
+    "visible": false,
+    "enabled": false
+  }
+}

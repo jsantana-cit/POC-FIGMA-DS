@@ -1,0 +1,9 @@
+/* COMMOM CSS */
+.qux-container.qux-element.feedback {
+    display: none;
+}
+
+.qux-button.qux-element.qux-action.icon {
+    background-color: transparent;
+}
+/* COMMOM CSS */
