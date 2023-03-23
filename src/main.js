@@ -13,9 +13,6 @@ async function init () {
   // for live debuging use Figma.createFigmaDesignlets(<FileID>, <AccessKey>)
   await Figma.createFigmaDesignSystem(design)
 
-  //"figd_-h8R1XYGK0SnphFSgsMlYSW8JivSkTIauE5RIXn7"
-  //figmaFile, figmaAcessKey, config
-
   new Vue({
     router,
     render: h => h(App)
